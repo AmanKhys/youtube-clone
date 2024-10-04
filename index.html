@@ -4,108 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>css display property</title>
-  <style>
-    @font-face {
-      font-family: "youtube-sans";
-      src: url('/fonts/YouTubeSansMedium.otf');
-    }
-
-    @font-face {
-      font-family: 'roboto-bold';
-      src: url(/fonts/Roboto-Bold.ttf)
-    }
-
-    @font-face {
-      font-family: 'roboto';
-      src: url(/fonts/Roboto-Regular.ttf)
-    }
-
-    body{
-      margin:0;
-    }
-
-    body {
-      font-family: 'youtube-sans';
-      margin: 0;
-    }
-
-    .navbar {
-      margin: 10px;
-    }
-
-    .search {
-      display: block;
-    }
-
-    .videos-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      column-gap: 15px;
-      row-gap: 15px;
-    }
-
-
-    .video-preview {
-      width: 100%;
-      vertical-align: top;
-    }
-    .thumbnail {
-      display: block;
-      width:100%;
-      border-radius: 9px;
-    }
-
-    .video-details-grid {
-      margin-top: 10px;
-      display: grid;
-      grid-template-columns: 40px 1fr;
-    }
-
-    .channel-picture {
-      display: inline-block;
-      width: 36px;
-      vertical-align: top;
-      margin-right: 4px;
-    }
-
-    .video-info {
-      display: inline-block;
-      width: 250px;
-      vertical-align: top;
-    }
-
-    .profile-image {
-      width: 100%;
-      border-radius: 50%;
-    }
-
-    .video-title {
-      margin: 0;
-      font-size: 16px;
-      font-weight: 500;
-    }
-
-    .video-author {
-      margin: 0;
-      font-size: 14px;
-      color: #606060;
-      margin-top: 5px;
-    }
-
-    .video-stats {
-      margin: 0;
-      font-size: 14px;
-      line-height: 20px;
-      color: #606060;
-    }
-  </style>
-
+  <title>youtube - Clone</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
 </head>
 
 <body>
-  <div class="navbar">
-    <input class="search-bar" type="text" placeholder="Search">
+  <div class="header">
+    <div class="left-section">
+      left-section
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+    </div>
+    <div class="right-section">
+      right-section
+    </div>
   </div>
 
   <div class="videos-grid">
