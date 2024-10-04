@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css display property</title>
+  <style>
+    @font-face {
+      font-family: "youtube-sans";
+      src: url('/fonts/YouTubeSansMedium.otf');
+    }
+    @font-face {
+      font-family: 'roboto-bold';
+      src: url(/fonts/Roboto-Bold.ttf)
+    }
+    @font-face {
+      font-family: 'roboto';
+      src: url(/fonts/Roboto-Regular.ttf)
+    }
+
+    p {
+      font-family: 'roboto';
+      margin: 0;
+    }
+
+    .navbar {
+      margin: 10px;
+    }
+
+    .search {
+      display: block;
+    }
+
+    .thumbnail {
+      display: block;
+      width: 300px;
+      border-radius: 9px;
+    }
+
+    .video-preview {
+      margin: 0 15px 15px 0;
+      width: 300px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .video-details {
+      margin-top: 10px;
+    }
+
+    .channel-picture {
+      display: inline-block;
+      width: 36px;
+      vertical-align: top;
+      margin-right: 4px;
+    }
+
+    .video-info {
+      display: inline-block;
+      width: 250px;
+      vertical-align: top;
+    }
+
+    .profile-image {
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    .video-title {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .video-author {
+      margin: 0;
+      font-size: 14px;
+      color: #606060;
+      margin-top: 5px;
+    }
+
+    .video-stats {
+      margin: 0;
+      font-size: 14px;
+      line-height: 20px;
+      color: #606060;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="navbar">
+    <input class="search-bar" type="text" placeholder="Search">
+  </div>
+
+  <div class="video-preview">
+    <div>
+      <img class="thumbnail" src="/images/theo_vid.webp" alt="theo_vid">
+    </div>
+    <div class="video-details">
+      <div class="channel-picture">
+        <img class="profile-image" src="images/theo.jpg" alt="theo">
+      </div>
+      <div class="video-info">
+        <p class="video-title">I Got Cited in the WordPress Lawsuit(+ Prime too)</p>
+        <p class="video-author">Theo - t3.gg</p>
+        <p class="video-stats">16K views &#183 3 hours ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-preview">
+    <div>
+      <img class="thumbnail" src="/images/motorinc_vid.webp" alt="motorinc_vid">
+    </div>
+    <div class="video-details">
+      <div class="channel-picture">
+        <img class="profile-image" src="images/motorInc.jpg" alt="motorInc">
+      </div>
+      <div class="video-info">
+        <p class="video-title">Ultraviolette F77 Mach 2 First Impressions | #MotorIncFirst S02E35</p>
+        <p class="video-author">MotorInc</p>
+        <p class="video-stats">14K views &#183 6 hours ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-preview">
+    <div>
+      <img class="thumbnail" src="/images/my_mix_vid.jpg" alt="my_mix_vid">
+    </div>
+    <div class="video-details">
+      <div class="channel-picture">
+        <img class="profile-image" src="images/github.jpg" alt="none">
+      </div>
+      <div class="video-info">
+        <p class="video-title">My Mix</p>
+        <p class="video-author">Kaavish, Bhayaan, Anuv Jain and more</p>
+        <p class="video-stats">588K views &#183 17 hours ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-preview">
+    <div>
+      <img class="thumbnail" src="/images/stephen_vid.webp" alt="stephen_vid">
+    </div>
+    <div class="video-details">
+      <div class="channel-picture">
+        <img class="profile-image" src="images/stephen.jpg" alt="stephen">
+      </div>
+      <div class="video-info">
+        <p class="video-title">What is Serverless Backend</p>
+        <p class="video-author">Stephen Blun</p>
+        <p class="video-stats">417 views &#183 2 days ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-preview">
+    <div>
+      <img class="thumbnail" src="/images/mohak_vid.webp" alt="mohak_vid">
+    </div>
+    <div class="video-details">
+      <div class="channel-picture">
+        <img class="profile-image" src="images/mohak.jpg" alt="mohak">
+      </div>
+      <div class="video-info">
+        <p class="video-title"> The Crazy Case of Rajat Dalal</p>
+        <p class="video-author">Mohak Mangal</p>
+        <p class="video-stats">588K views &#183 17 hours ago</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
