@@ -13,8 +13,16 @@
   src: url(/fonts/Roboto-Regular.ttf)
 }
 
+*{
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'youtube-sans';
   margin: 0;
+}
+
+.side-bar-and-content{
+  display: grid;
+  grid-template-columns: 72px 1fr;
 }
