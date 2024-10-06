@@ -15,14 +15,11 @@
 
 *{
   box-sizing: border-box;
+  font-family: 'youtube-sans','roboto';
 }
 
 body {
-  font-family: 'youtube-sans','roboto';
   margin: 0;
-}
-
-.side-bar-and-content{
-  display: grid;
-  grid-template-columns: 72px 1fr;
+  padding-top: 122px;
+  padding-left: 61px;
 }

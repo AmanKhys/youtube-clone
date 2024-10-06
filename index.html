@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/icons/youtube-icon.svg">
   <title>youtube - Clone</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="styles/general.css">
@@ -26,232 +27,269 @@
     <div class="right-section">
       <img src="images/icons/upload.svg" alt="upload">
       <img src="images/icons/youtube-apps.svg" alt="youtube-apps">
-      <img id="notification" src="images/icons/notifcation.png" alt="notifcation">
+      <div class="notification-container">
+        <img src="images/icons/notifications.svg" alt="notifcation">
+        <div class="notification-counter">9+</div>
+      </div>
+
       <img id="profile-image-header" src="images/channels/aman.jpg" alt="aman">
     </div>
   </div>
 
-  <div class="side-bar-and-content">
-    <div class="sidebar">
-      <div class="sidebar-element">
-
+  <div class="sidebar">
+    <div class="sidebar-element">
       <img src="images/icons/home.svg" alt="home">
       <div>Home</div>
-      </div>
-      <div class="sidebar-element">
-
+    </div>
+    <div class="sidebar-element">
       <img src="images/icons/explore.svg" alt="explore">
       <div>Explore</div>
-      </div>
-      <div class="sidebar-element">
-
+    </div>
+    <div class="sidebar-element">
       <img src="images/icons/subscriptions.svg" alt="subscriptions">
       <div>Subscriptions</div>
-      </div>
-      <div class="sidebar-element">
-
+    </div>
+    <div class="sidebar-element">
       <img src="images/icons/originals.svg" alt="originals">
       <div>Originals</div>
-      </div>
-      <div class="sidebar-element">
-
+    </div>
+    <div class="sidebar-element">
       <img src="images/icons/youtube-music.svg" alt="youtube-music">
       <div>Youtube Music</div>
-      </div>
-      <div class="sidebar-element">
-
+    </div>
+    <div class="sidebar-element">
       <img src="images/icons/library.svg" alt="library">
       <div>Library</div>
+    </div>
+  </div>
+  <div class="suggestions">
+    <button>Music</button>
+    <button>paylist</button>
+    <button>mix</button>
+    <button>computer science</button>
+    <button>Workout</button>
+    <button>Exercise</button>
+    <button>Podcast</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+    <button>Music</button>
+  </div>
+  <div class="videos-grid">
+    <div class="video-preview">
+      <div class="thumbnail-div">
+        <img class="thumbnail" src="images/thumbnails/theo_vid.webp" alt="theo_vid">
+        <div class="video-time">5:10</div>
+      </div>
+      <div class="video-details-grid">
+        <div class="channel-picture">
+          <img class="profile-image" src="images/channels/theo.jpg" alt="theo">
+        </div>
+        <div class="video-info">
+          <p class="video-title">I Got Cited in the WordPress Lawsuit(+ Prime too)</p>
+          <p class="video-author">Theo - t3.gg</p>
+          <p class="video-stats">16K views &#183 3 hours ago</p>
+        </div>
       </div>
     </div>
-    <div class="videos-grid">
-      <div class="video-preview">
-        <div>
-          <img class="thumbnail" src="images/thumbnails/theo_vid.webp" alt="theo_vid">
-        </div>
-        <div class="video-details-grid">
-          <div class="channel-picture">
-            <img class="profile-image" src="images/channels/theo.jpg" alt="theo">
-          </div>
-          <div class="video-info">
-            <p class="video-title">I Got Cited in the WordPress Lawsuit(+ Prime too)</p>
-            <p class="video-author">Theo - t3.gg</p>
-            <p class="video-stats">16K views &#183 3 hours ago</p>
-          </div>
-        </div>
-      </div>
 
-      <div class="video-preview">
-        <div>
-          <img class="thumbnail" src="images/thumbnails/motorinc_vid.webp" alt="motorinc_vid">
+    <div class="video-preview">
+      <div class="thumbnail-div">
+        <img class="thumbnail" src="images/thumbnails/motorinc_vid.webp" alt="motorinc_vid">
+        <div class="video-time">5:10</div>
+      </div>
+      <div class="video-details-grid">
+        <div class="channel-picture">
+          <img class="profile-image" src="images/channels/motorInc.jpg" alt="motorInc">
         </div>
-        <div class="video-details-grid">
-          <div class="channel-picture">
-            <img class="profile-image" src="images/channels/motorInc.jpg" alt="motorInc">
-          </div>
-          <div class="video-info">
-            <p class="video-title">Ultraviolette F77 Mach 2 First Impressions | #MotorIncFirst S02E35</p>
-            <p class="video-author">MotorInc</p>
-            <p class="video-stats">14K views &#183 6 hours ago</p>
-          </div>
+        <div class="video-info">
+          <p class="video-title">Ultraviolette F77 Mach 2 First Impressions | #MotorIncFirst S02E35</p>
+          <p class="video-author">MotorInc</p>
+          <p class="video-stats">14K views &#183 6 hours ago</p>
         </div>
       </div>
+    </div>
 
-      <div class="video-preview">
-        <div>
-          <img class="thumbnail" src="images/thumbnails/my_mix_vid.jpg" alt="my_mix_vid">
+    <div class="video-preview">
+      <div class="thumbnail-div">
+        <img class="thumbnail" src="images/thumbnails/my_mix_vid.jpg" alt="my_mix_vid">
+        <div class="video-time"><img src="images/icons/radio.svg" alt="radio"> Mix</div>
+      </div>
+      <div class="video-details-grid">
+        <div class="channel-picture">
+          <img class="profile-image" src="images/channels/github.jpg" alt="none">
         </div>
-        <div class="video-details-grid">
-          <div class="channel-picture">
-            <img class="profile-image" src="images/channels/github.jpg" alt="none">
-          </div>
-          <div class="video-info">
-            <p class="video-title">My Mix</p>
-            <p class="video-author">Kaavish, Bhayaan, Anuv Jain and more</p>
-            <p class="video-stats">588K views &#183 17 hours ago</p>
-          </div>
+        <div class="video-info">
+          <p class="video-title">My Mix</p>
+          <p class="video-author">Kaavish, Bhayaan, Anuv Jain and more</p>
+          <p class="video-stats">588K views &#183 17 hours ago</p>
         </div>
       </div>
+    </div>
 
-      <div class="video-preview">
-        <div>
-          <img class="thumbnail" src="images/thumbnails/stephen_vid.webp" alt="stephen_vid">
+    <div class="video-preview">
+      <div class="thumbnail-div">
+        <img class="thumbnail" src="images/thumbnails/stephen_vid.webp" alt="stephen_vid">
+        <div class="video-time">5:10</div>
+      </div>
+      <div class="video-details-grid">
+        <div class="channel-picture">
+          <img class="profile-image" src="images/channels/stephen.jpg" alt="stephen">
         </div>
-        <div class="video-details-grid">
-          <div class="channel-picture">
-            <img class="profile-image" src="images/channels/stephen.jpg" alt="stephen">
-          </div>
-          <div class="video-info">
-            <p class="video-title">What is Serverless Backend</p>
-            <p class="video-author">Stephen Blun</p>
-            <p class="video-stats">417 views &#183 2 days ago</p>
-          </div>
+        <div class="video-info">
+          <p class="video-title">What is Serverless Backend</p>
+          <p class="video-author">Stephen Blun</p>
+          <p class="video-stats">417 views &#183 2 days ago</p>
         </div>
       </div>
+    </div>
 
-      <div class="video-preview">
-        <div>
-          <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+    <div class="video-preview">
+      <div class="thumbnail-div">
+        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+        <div class="video-time">5:10</div>
+      </div>
+      <div class="video-details-grid">
+        <div class="channel-picture">
+          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
         </div>
-        <div class="video-details-grid">
-          <div class="channel-picture">
-            <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
-          </div>
-          <div class="video-info">
-            <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-            <p class="video-author">Mohak Mangal</p>
-            <p class="video-stats">588K views &#183 17 hours ago</p>
-          </div>
+        <div class="video-info">
+          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
+          <p class="video-author">Mohak Mangal</p>
+          <p class="video-stats">588K views &#183 17 hours ago</p>
         </div>
       </div>
-      <div class="video-preview">
-        <div>
-          <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-div">
+        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+        <div class="video-time">5:10</div>
+      </div>
+      <div class="video-details-grid">
+        <div class="channel-picture">
+          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
         </div>
-        <div class="video-details-grid">
-          <div class="channel-picture">
-            <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
-          </div>
-          <div class="video-info">
-            <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-            <p class="video-author">Mohak Mangal</p>
-            <p class="video-stats">588K views &#183 17 hours ago</p>
-          </div>
+        <div class="video-info">
+          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
+          <p class="video-author">Mohak Mangal</p>
+          <p class="video-stats">588K views &#183 17 hours ago</p>
         </div>
       </div>
-      <div class="video-preview">
-        <div>
-          <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-div">
+        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+        <div class="video-time">5:10</div>
+      </div>
+      <div class="video-details-grid">
+        <div class="channel-picture">
+          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
         </div>
-        <div class="video-details-grid">
-          <div class="channel-picture">
-            <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
-          </div>
-          <div class="video-info">
-            <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-            <p class="video-author">Mohak Mangal</p>
-            <p class="video-stats">588K views &#183 17 hours ago</p>
-          </div>
+        <div class="video-info">
+          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
+          <p class="video-author">Mohak Mangal</p>
+          <p class="video-stats">588K views &#183 17 hours ago</p>
         </div>
       </div>
-      <div class="video-preview">
-        <div>
-          <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-div">
+        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+        <div class="video-time">5:10</div>
+      </div>
+      <div class="video-details-grid">
+        <div class="channel-picture">
+          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
         </div>
-        <div class="video-details-grid">
-          <div class="channel-picture">
-            <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
-          </div>
-          <div class="video-info">
-            <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-            <p class="video-author">Mohak Mangal</p>
-            <p class="video-stats">588K views &#183 17 hours ago</p>
-          </div>
+        <div class="video-info">
+          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
+          <p class="video-author">Mohak Mangal</p>
+          <p class="video-stats">588K views &#183 17 hours ago</p>
         </div>
       </div>
-      <div class="video-preview">
-        <div>
-          <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-div">
+        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+        <div class="video-time">5:10</div>
+      </div>
+      <div class="video-details-grid">
+        <div class="channel-picture">
+          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
         </div>
-        <div class="video-details-grid">
-          <div class="channel-picture">
-            <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
-          </div>
-          <div class="video-info">
-            <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-            <p class="video-author">Mohak Mangal</p>
-            <p class="video-stats">588K views &#183 17 hours ago</p>
-          </div>
+        <div class="video-info">
+          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
+          <p class="video-author">Mohak Mangal</p>
+          <p class="video-stats">588K views &#183 17 hours ago</p>
         </div>
       </div>
-      <div class="video-preview">
-        <div>
-          <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-div">
+        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+        <div class="video-time">5:10</div>
+      </div>
+      <div class="video-details-grid">
+        <div class="channel-picture">
+          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
         </div>
-        <div class="video-details-grid">
-          <div class="channel-picture">
-            <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
-          </div>
-          <div class="video-info">
-            <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-            <p class="video-author">Mohak Mangal</p>
-            <p class="video-stats">588K views &#183 17 hours ago</p>
-          </div>
+        <div class="video-info">
+          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
+          <p class="video-author">Mohak Mangal</p>
+          <p class="video-stats">588K views &#183 17 hours ago</p>
         </div>
       </div>
-      <div class="video-preview">
-        <div>
-          <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-div">
+        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+        <div class="video-time">5:10</div>
+      </div>
+      <div class="video-details-grid">
+        <div class="channel-picture">
+          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
         </div>
-        <div class="video-details-grid">
-          <div class="channel-picture">
-            <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
-          </div>
-          <div class="video-info">
-            <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-            <p class="video-author">Mohak Mangal</p>
-            <p class="video-stats">588K views &#183 17 hours ago</p>
-          </div>
+        <div class="video-info">
+          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
+          <p class="video-author">Mohak Mangal</p>
+          <p class="video-stats">588K views &#183 17 hours ago</p>
         </div>
       </div>
-      <div class="video-preview">
-        <div>
-          <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-div">
+        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
+        <div class="video-time">5:10</div>
+      </div>
+      <div class="video-details-grid">
+        <div class="channel-picture">
+          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
         </div>
-        <div class="video-details-grid">
-          <div class="channel-picture">
-            <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
-          </div>
-          <div class="video-info">
-            <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-            <p class="video-author">Mohak Mangal</p>
-            <p class="video-stats">588K views &#183 17 hours ago</p>
-          </div>
+        <div class="video-info">
+          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
+          <p class="video-author">Mohak Mangal</p>
+          <p class="video-stats">588K views &#183 17 hours ago</p>
         </div>
       </div>
     </div>
 
   </div>
+
 </body>
 
 </html>
