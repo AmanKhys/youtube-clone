@@ -1,21 +1,21 @@
-@font-face {
-  font-family: "youtube-sans";
-  src: url('/fonts/YouTubeSansMedium.otf') format('truetype');
-}
+/*@font-face {*/
+/*  font-family: "youtube-sans";*/
+/*  src: url('/fonts/YouTubeSansMedium.otf') format('truetype');*/
+/*}*/
+/**/
+/*@font-face {*/
+/*  font-family: 'roboto-bold';*/
+/*  src: url('/fonts/Roboto-Bold.ttf') format('truetype');*/
+/*}*/
+/**/
+/*@font-face {*/
+/*  font-family: 'roboto';*/
+/*  src: url('/fonts/Roboto-Regular.ttf') format('truetype');*/
+/*}*/
 
-@font-face {
-  font-family: 'roboto-bold';
-  src: url('/fonts/Roboto-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'roboto';
-  src: url('/fonts/Roboto-Regular.ttf') format('truetype');
-}
-
-*{
+* {
   box-sizing: border-box;
-  font-family: 'youtube-sans','roboto';
+  font-family: 'roboto';
 }
 
 body {
