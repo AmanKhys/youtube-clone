@@ -1,0 +1,46 @@
+.suggestions {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  top: 56px;
+  left: 100px;
+  z-index: 2;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+padding: 15px 0 0 0;
+}
+
+
+.suggestions button {
+  background-color: #e8e8e8;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 0 12px;
+  margin: 12px 12px 12px 0;
+  width: max-content;
+  color: #0F0F0F;
+  border-radius: 5px;
+  border: none;
+}
+
+.suggestions button:hover {
+  background-color: #bbbbbb;
+}
+
+
+@media (max-width: 599px) {
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
+}

@@ -89,6 +89,7 @@
   right: -10px;
   bottom: -30px;
   text-wrap: nowrap;
+  font-size: 12px;
   padding: 3px 6px;
   border-radius: 4px;
   position: absolute;
@@ -134,10 +135,55 @@
   border-radius: 6px;
 }
 
-#profile-image-header {
+
+#current-user{
   border-radius: 50%;
   width: 32px;
   height: 32px;
 }
 
+.notification-container,
+.upload-icon-container,
+.apps-icon-container,
+.current-user-icon-container{
+  position: relative;
+}
 
+.notification-container .tooltip,
+.upload-icon-container .tooltip,
+.apps-icon-container .tooltip,
+.current-user-icon-container .tooltip{
+  right: -10px;
+  bottom: -30px;
+  text-wrap: nowrap;
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 4px;
+  position: absolute;
+  background-color: rgb(224, 224, 224);
+  opacity: 0;
+}
+
+
+.notification-container:hover,
+.upload-icon-container:hover,
+.apps-icon-container:hover,
+.current-user-icon-container:hover{
+  .tooltip{
+    opacity: 1;
+  }
+}
+
+
+
+@media (max-width: 599px) {
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
+}

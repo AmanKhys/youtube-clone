@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/video.css">
   <link rel="stylesheet" href="styles/sidebar.css">
+  <link rel="stylesheet" href="styles/suggestions.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -37,13 +38,23 @@
       </button>
     </div>
     <div class="right-section">
-      <div><img src="images/icons/upload.svg" alt="upload"></div>
-      <div><img src="images/icons/youtube-apps.svg" alt="youtube-apps"></div>
+      <div class="upload-icon-container">
+        <img src="images/icons/upload.svg" alt="upload">
+        <div class="tooltip">create</div>
+      </div>
+      <div class="apps-icon-container">
+        <img src="images/icons/youtube-apps.svg" alt="youtube-apps">
+        <div class="tooltip">youtube apps</div>
+      </div>
       <div class="notification-container">
         <img src="images/icons/notifications.svg" alt="notifcation">
         <div class="notification-counter">9+</div>
+        <div class="tooltip">notifications</div>
       </div>
-      <div><img id="profile-image-header" src="images/channels/aman.jpg" alt="aman"></div>
+      <div class="current-user-icon-container">
+        <img id="current-user" src="images/channels/aman.jpg" alt="aman">
+        <div class="tooltip">user profile</div>
+      </div>
 
     </div>
   </div>
