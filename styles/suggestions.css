@@ -1,29 +1,30 @@
 .suggestions {
+
   width: 100%;
-  background-color: white;
+  background-color: lightblue;
   position: fixed;
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
-  top: 3.5rem; /* 56px */
-  left: 6.25rem; /* 100px */
+  top: 4rem; /* 56px */
+  left: 6rem; /* 100px */
   z-index: 2;
   scrollbar-width: none;
   scroll-behavior: smooth;
-  padding: 0.9375rem 0 0 0; /* 15px */
+  padding: 1rem 0 0 0; /* 15px */
 }
 
 .suggestions button {
   background-color: #e8e8e8;
   white-space: nowrap;
-  font-size: 0.875rem; /* 14px */
+  font-size: 0.8rem; /* 14px */
   font-weight: 500;
   line-height: 2rem; /* 32px */
   padding: 0 0.75rem; /* 12px */
-  margin: 0.75rem 0.75rem 0.75rem 0; /* 12px */
+  margin: 0.75rem 0 0.75rem 0.75rem; /* 12px */
   width: max-content;
   color: #0F0F0F;
-  border-radius: 0.3125rem; /* 5px */
+  border-radius: 0.5rem; /* 5px */
   border: none;
 }
 
@@ -33,9 +34,15 @@
 
 
 @media (max-width: 599px) {
+  .suggestions{
+    left:0;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
+  .suggestions{
+    left:0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
