@@ -25,19 +25,26 @@
       <img src="images/icons/youtube-logo.svg" alt="youtube-logo">
     </div>
     <div class="middle-section">
-      <input id="search-bar" type="text" placeholder="      Search">
-      <button id="search-icon"><img src="images/icons/search.svg" alt="search"></button>
-      <button id="voice-search-icon"><img src="images/icons/voice-search-icon.svg" alt="voice-search-icon"></button>
+      <input id="search-bar" type="text" placeholder="Search">
+      <button id="search-icon">
+        <img src="images/icons/search.svg" alt="search">
+      <div class="tooltip">search</div>
+      </button>
+
+      <button id="voice-search-icon">
+        <img src="images/icons/voice-search-icon.svg" alt="voice-search-icon">
+        <div class="tooltip">voice search</div>
+      </button>
     </div>
     <div class="right-section">
-      <img src="images/icons/upload.svg" alt="upload">
-      <img src="images/icons/youtube-apps.svg" alt="youtube-apps">
+      <div><img src="images/icons/upload.svg" alt="upload"></div>
+      <div><img src="images/icons/youtube-apps.svg" alt="youtube-apps"></div>
       <div class="notification-container">
         <img src="images/icons/notifications.svg" alt="notifcation">
         <div class="notification-counter">9+</div>
       </div>
+      <div><img id="profile-image-header" src="images/channels/aman.jpg" alt="aman"></div>
 
-      <img id="profile-image-header" src="images/channels/aman.jpg" alt="aman">
     </div>
   </div>
 
@@ -69,37 +76,37 @@
   </div>
   <div class="suggestions">
     <button>Music</button>
-    <button>paylist</button>
-    <button>mix</button>
-    <button>computer science</button>
+    <button>Playlist</button>
+    <button>Mix</button>
+    <button>Computer Ccience</button>
     <button>Workout</button>
     <button>Exercise</button>
     <button>Podcast</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
-    <button>Music</button>
+    <button>MotorInc</button>
+    <button>Anuv Jain</button>
+    <button>Hardware</button>
+    <button>News</button>
+    <button>Open Weightlifting</button>
+    <button>Squats</button>
+    <button>Top Hits</button>
+    <button>Jordan Peterson</button>
+    <button>Boys</button>
+    <button>The Print</button>
+    <button>Renassoince Periodazisation</button>
+    <button>Javascript</button>
+    <button>System Designs</button>
+    <button>Chords</button>
+    <button>Comedy</button>
+    <button>Asian Powerlifting</button>
+    <button>Indie Music</button>
+    <button>Watched</button>
+    <button>New to you</button>
   </div>
   <div class="videos-grid">
     <div class="video-preview">
       <div class="thumbnail-div">
         <img class="thumbnail" src="images/thumbnails/theo_vid.webp" alt="theo_vid">
-        <div class="video-time">5:10</div>
+        <div class="video-time">6:12</div>
       </div>
       <div class="video-details-grid">
         <div class="channel-picture">
@@ -116,14 +123,14 @@
     <div class="video-preview">
       <div class="thumbnail-div">
         <img class="thumbnail" src="images/thumbnails/motorinc_vid.webp" alt="motorinc_vid">
-        <div class="video-time">5:10</div>
+        <div class="video-time">44:32</div>
       </div>
       <div class="video-details-grid">
         <div class="channel-picture">
           <img class="profile-image" src="images/channels/motorInc.jpg" alt="motorInc">
         </div>
         <div class="video-info">
-          <p class="video-title">Ultraviolette F77 Mach 2 First Impressions | #MotorIncFirst S02E35</p>
+          <p class="video-title">Ultraviolette F77 Mach 2 First Impressions | S02E35</p>
           <p class="video-author">MotorInc</p>
           <p class="video-stats">14K views &#183 6 hours ago</p>
         </div>
@@ -142,7 +149,6 @@
         <div class="video-info">
           <p class="video-title">My Mix</p>
           <p class="video-author">Kaavish, Bhayaan, Anuv Jain and more</p>
-          <p class="video-stats">588K views &#183 17 hours ago</p>
         </div>
       </div>
     </div>
@@ -150,7 +156,7 @@
     <div class="video-preview">
       <div class="thumbnail-div">
         <img class="thumbnail" src="images/thumbnails/stephen_vid.webp" alt="stephen_vid">
-        <div class="video-time">5:10</div>
+        <div class="video-time">10:11</div>
       </div>
       <div class="video-details-grid">
         <div class="channel-picture">
@@ -167,7 +173,7 @@
     <div class="video-preview">
       <div class="thumbnail-div">
         <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
-        <div class="video-time">5:10</div>
+        <div class="video-time">22:43</div>
       </div>
       <div class="video-details-grid">
         <div class="channel-picture">
@@ -182,113 +188,113 @@
     </div>
     <div class="video-preview">
       <div class="thumbnail-div">
-        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
-        <div class="video-time">5:10</div>
+        <img class="thumbnail" src="images/thumbnails/dr_karan_vid.webp" alt="dr_karan_vid">
+        <div class="video-time">1:02:31</div>
       </div>
       <div class="video-details-grid">
         <div class="channel-picture">
-          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
+          <img class="profile-image" src="images/channels/dr_karan.jpg" alt="dr karan">
         </div>
         <div class="video-info">
-          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-          <p class="video-author">Mohak Mangal</p>
-          <p class="video-stats">588K views &#183 17 hours ago</p>
+          <p class="video-title">From Acne to Anti-Aging: Skincare Advice You Need to Hear</p>
+          <p class="video-author">Dr. Karan</p>
+          <p class="video-stats">10K views &#183 2 hours ago</p>
         </div>
       </div>
     </div>
     <div class="video-preview">
       <div class="thumbnail-div">
-        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
-        <div class="video-time">5:10</div>
+        <img class="thumbnail" src="images/thumbnails/zendria_vid.webp" alt="zendria_vid">
+        <div class="video-time">4:13</div>
       </div>
       <div class="video-details-grid">
         <div class="channel-picture">
-          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
+          <img class="profile-image" src="images/channels/zendria.jpg" alt="zendria">
         </div>
         <div class="video-info">
-          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-          <p class="video-author">Mohak Mangal</p>
-          <p class="video-stats">588K views &#183 17 hours ago</p>
+          <p class="video-title">Anuv Jain Made Us Cry | HUSN | Zendria</p>
+          <p class="video-author">Zendria</p>
+          <p class="video-stats">1.9M views &#183 8 months ago</p>
         </div>
       </div>
     </div>
     <div class="video-preview">
       <div class="thumbnail-div">
-        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
-        <div class="video-time">5:10</div>
+        <img class="thumbnail" src="images/thumbnails/theprimetime_vid.webp" alt="theprimetiem_vid">
+        <div class="video-time">2:12:45</div>
       </div>
       <div class="video-details-grid">
         <div class="channel-picture">
-          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
+          <img class="profile-image" src="images/channels/theprimetime.jpg" alt="theprimetime">
         </div>
         <div class="video-info">
-          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-          <p class="video-author">Mohak Mangal</p>
-          <p class="video-stats">588K views &#183 17 hours ago</p>
+          <p class="video-title">Rails World is Soo Good</p>
+          <p class="video-author">ThePrimeTime</p>
+          <p class="video-stats">51K views &#183 4 hours ago</p>
         </div>
       </div>
     </div>
     <div class="video-preview">
       <div class="thumbnail-div">
-        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
-        <div class="video-time">5:10</div>
+        <img class="thumbnail" src="images/thumbnails/varun_mayya_vid.webp" alt="varun_mayya_vid">
+        <div class="video-time">16:53</div>
       </div>
       <div class="video-details-grid">
         <div class="channel-picture">
-          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
+          <img class="profile-image" src="images/channels/varun.jpg" alt="varun">
         </div>
         <div class="video-info">
-          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-          <p class="video-author">Mohak Mangal</p>
-          <p class="video-stats">588K views &#183 17 hours ago</p>
+          <p class="video-title">Please LEAVE YOUR HOME!</p>
+          <p class="video-author">Varun Mayya</p>
+          <p class="video-stats">912K views &#183 11 months ago</p>
         </div>
       </div>
     </div>
     <div class="video-preview">
       <div class="thumbnail-div">
-        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
-        <div class="video-time">5:10</div>
+        <img class="thumbnail" src="images/thumbnails/neetcodeio_vid.webp" alt="neetcodeio_vid">
+        <div class="video-time">14:42</div>
       </div>
       <div class="video-details-grid">
         <div class="channel-picture">
-          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
+          <img class="profile-image" src="images/channels/neetcodeio.jpg" alt="neetcodeio">
         </div>
         <div class="video-info">
-          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-          <p class="video-author">Mohak Mangal</p>
-          <p class="video-stats">588K views &#183 17 hours ago</p>
+          <p class="video-title">How I Would Learn Leetcode If I Could Learn Again</p>
+          <p class="video-author">NeetCodeIO</p>
+          <p class="video-stats">214K views &#183 2 months ago</p>
         </div>
       </div>
     </div>
     <div class="video-preview">
       <div class="thumbnail-div">
-        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
-        <div class="video-time">5:10</div>
+        <img class="thumbnail" src="images/thumbnails/motorinc_vid2.webp" alt="motorinc_vid2">
+        <div class="video-time">57:18</div>
       </div>
       <div class="video-details-grid">
         <div class="channel-picture">
-          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
+          <img class="profile-image" src="images/channels/motorInc.jpg" alt="motorInc">
         </div>
         <div class="video-info">
-          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-          <p class="video-author">Mohak Mangal</p>
-          <p class="video-stats">588K views &#183 17 hours ago</p>
+          <p class="video-title">Tata Curvv ICE 2025 First Impressions | S02E38</p>
+          <p class="video-author">MotorInc</p>
+          <p class="video-stats">58K views &#183 14 hours ago</p>
         </div>
       </div>
     </div>
     <div class="video-preview">
       <div class="thumbnail-div">
-        <img class="thumbnail" src="images/thumbnails/mohak_vid.webp" alt="mohak_vid">
-        <div class="video-time">5:10</div>
+        <img class="thumbnail" src="images/thumbnails/fireship_vid.webp" alt="fireship_vid">
+        <div class="video-time">3:56</div>
       </div>
       <div class="video-details-grid">
         <div class="channel-picture">
-          <img class="profile-image" src="images/channels/mohak.jpg" alt="mohak">
+          <img class="profile-image" src="images/channels/fireship.jpg" alt="fireship">
         </div>
         <div class="video-info">
-          <p class="video-title"> The Crazy Case of Rajat Dalal</p>
-          <p class="video-author">Mohak Mangal</p>
-          <p class="video-stats">588K views &#183 17 hours ago</p>
+          <p class="video-title">How an incredibly ametuer mistake left Arc Browser wide open to hackers</p>
+          <p class="video-author">fireship</p>
+          <p class="video-stats">370K views &#183 1 day ago</p>
         </div>
       </div>
     </div>

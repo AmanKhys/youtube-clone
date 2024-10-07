@@ -9,7 +9,7 @@
   height: 56px;
   margin-bottom: 24px;
   background-color: white;
-  z-index: 2;
+  z-index: 5;
 }
 
 .left-section {
@@ -21,7 +21,9 @@
 .left-section img {
   height: 24px;
   padding: 0 10px 0 0;
+  cursor: pointer;
 }
+
 
 .middle-section {
   display: flex;
@@ -39,6 +41,17 @@
   border-radius: 20px 0 0 20px;
   flex: 10;
   height: 100%;
+  padding-left: 24px;
+  font-size: 16px;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.137);
+}
+#search-bar:focus{
+  border: 1px #ccc solid;
+  outline: none;
+}
+
+.middle-section button:hover {
+  background-color: #F3F3F3;
 }
 
 .middle-section button {
@@ -49,7 +62,7 @@
 }
 
 .middle-section img {
-  height:24px ;
+  height: 24px;
   width: 24px;
 }
 
@@ -60,11 +73,32 @@
 }
 
 #voice-search-icon {
-  border-radius:50% ;
+  border-radius: 50%;
   border: 0px;
   padding: 0;
   height: 40px;
   width: 40px;
+}
+
+.middle-section button{
+  position:relative;
+  z-index: 1;
+  cursor: pointer;
+}
+.middle-section .tooltip{
+  right: -10px;
+  bottom: -30px;
+  text-wrap: nowrap;
+  padding: 3px 6px;
+  border-radius: 4px;
+  position: absolute;
+  background-color: rgb(224, 224, 224);
+  opacity: 0;
+}
+.middle-section button:hover{
+  .tooltip{
+    opacity: 1;
+  }
 }
 
 .right-section {
@@ -79,17 +113,21 @@
 .right-section img {
   width: 24px;
   height: 24px;
-  margin-left: 16px;
+  margin-left: 25px;
+  cursor: pointer;
 }
-.right-section .notification-container{
+
+
+.right-section .notification-container {
   position: relative;
 }
-.right-section .notification-counter{
+
+.right-section .notification-counter {
   position: absolute;
-  top:0;
+  top: 0;
   right: -5px;
-  background-color: red;
-  color:white;
+  background-color: rgb(167, 0, 0);
+  color: white;
   padding: 1px 3px;
   font-size: 12px;
   line-height: 12px;
@@ -101,3 +139,5 @@
   width: 32px;
   height: 32px;
 }
+
+
