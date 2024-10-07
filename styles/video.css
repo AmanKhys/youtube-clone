@@ -2,15 +2,14 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 5px 0 0 0;
-  margin-bottom: 30px;
+  padding: 0.3125rem 0 0 0; /* 5px */
+  margin-bottom: 1.875rem; /* 30px */
 }
 
 .video-preview {
-  width:100%;
-  padding: 15px 15px;
+  width: 100%;
+  padding: 0.9375rem 0.9375rem; /* 15px */
   cursor: pointer;
-  /* vertical-align: top; */
 }
 
 .thumbnail-div {
@@ -19,14 +18,14 @@
 
 .video-time {
   position: absolute;
-  font-size: 14px;
-  font-weight: 500px;
-  bottom: 13px;
-  right: 20px;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 500;
+  bottom: 0.8125rem; /* 13px */
+  right: 1.25rem; /* 20px */
   background-color: rgba(0, 0, 0, 0.56);
   color: white;
-  padding: 0 4px;
-  border-radius: 3px;
+  padding: 0 0.25rem; /* 4px */
+  border-radius: 0.1875rem; /* 3px */
   border-width: 0;
   text-align: center;
   display: flex;
@@ -34,28 +33,26 @@
 }
 
 .video-time img {
-  width: 14px;
-  height: 14px;
+  width: 0.875rem; /* 14px */
+  height: 0.875rem; /* 14px */
   filter: invert(1) sepia(1) saturate(0) hue-rotate(180deg);
-  /* Change to white */
-
 }
 
 .thumbnail {
   width: 100%;
-  border-radius: 9px;
+  border-radius: 0.5625rem; /* 9px */
 }
 
 .video-details-grid {
-  margin-top: 10px;
+  margin-top: 0.625rem; /* 10px */
   display: grid;
-  grid-template-columns: 40px 1fr;
+  grid-template-columns: 2.5rem 1fr; /* 40px */
 }
 
 .channel-picture {
-  width: 36px;
+  width: 2.25rem; /* 36px */
   vertical-align: top;
-  margin-right: 4px;
+  margin-right: 0.25rem; /* 4px */
 }
 
 .video-info {
@@ -69,22 +66,22 @@
 
 .video-title {
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem; /* 16px */
   font-weight: 500;
-  text-align:start;
+  text-align: start;
 }
 
 .video-author {
   margin: 0;
-  font-size: 14px;
+  font-size: 0.875rem; /* 14px */
   color: #606060;
-  margin-top: 5px;
+  margin-top: 0.3125rem; /* 5px */
 }
 
 .video-stats {
   margin: 0;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
   color: #606060;
 }
 

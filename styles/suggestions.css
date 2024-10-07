@@ -5,26 +5,25 @@
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
-  top: 56px;
-  left: 100px;
+  top: 3.5rem; /* 56px */
+  left: 6.25rem; /* 100px */
   z-index: 2;
   scrollbar-width: none;
   scroll-behavior: smooth;
-padding: 15px 0 0 0;
+  padding: 0.9375rem 0 0 0; /* 15px */
 }
-
 
 .suggestions button {
   background-color: #e8e8e8;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 0.875rem; /* 14px */
   font-weight: 500;
-  line-height: 32px;
-  padding: 0 12px;
-  margin: 12px 12px 12px 0;
+  line-height: 2rem; /* 32px */
+  padding: 0 0.75rem; /* 12px */
+  margin: 0.75rem 0.75rem 0.75rem 0; /* 12px */
   width: max-content;
   color: #0F0F0F;
-  border-radius: 5px;
+  border-radius: 0.3125rem; /* 5px */
   border: none;
 }
 

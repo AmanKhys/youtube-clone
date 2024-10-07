@@ -1,12 +1,12 @@
 .sidebar {
   position: fixed;
   display: flex;
-  top: 80px;
-  left:0;
+  top: 5rem; /* 80px */
+  left: 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width:100px;
+  width: 6.25rem; /* 100px */
 }
 
 .sidebar-element {
@@ -22,17 +22,16 @@
 }
 
 .sidebar img {
-  width: 28px;
-  height: 28px;
-  margin-bottom: 4px;
+  width: 1.75rem; /* 28px */
+  height: 1.75rem; /* 28px */
+  margin-bottom: 0.25rem; /* 4px */
 }
 
 .sidebar div {
-  font-size: 12px;
-  margin: 0 0 15px 0;
+  font-size: 0.75rem; /* 12px */
+  margin: 0 0 0.9375rem 0; /* 15px */
   text-wrap: wrap;
 }
-
 
 
 @media (max-width: 599px) {
