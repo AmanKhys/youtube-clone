@@ -1,7 +1,7 @@
 .suggestions {
 
   width: 100%;
-  background-color: lightblue;
+  background-color: hsl(0, 0%, 98%);
   position: fixed;
   display: flex;
   overflow-x: auto;
@@ -11,7 +11,7 @@
   z-index: 2;
   scrollbar-width: none;
   scroll-behavior: smooth;
-  padding: 1rem 0 0 0; /* 15px */
+  padding: .5rem 0 0 0; /* 15px */
 }
 
 .suggestions button {
@@ -21,7 +21,7 @@
   font-weight: 500;
   line-height: 2rem; /* 32px */
   padding: 0 0.75rem; /* 12px */
-  margin: 0.75rem 0 0.75rem 0.75rem; /* 12px */
+  margin: 0.5rem 0 0.5rem 0.5rem; /* 12px */
   width: max-content;
   color: #0F0F0F;
   border-radius: 0.5rem; /* 5px */
@@ -36,6 +36,7 @@
 @media (max-width: 599px) {
   .suggestions{
     left:0;
+    top: 2.5rem;
   }
 }
 
